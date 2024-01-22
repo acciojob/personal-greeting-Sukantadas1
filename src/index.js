@@ -1,7 +1,6 @@
+// index.js
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./components/App";
+import Greeting from "./components/Greeting";
 
-
-
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<Greeting />, document.getElementById("root"));
